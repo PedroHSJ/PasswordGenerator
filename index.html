@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <title>Password Generator</title>
+</head>
+
+<body>
+    <nav>
+        <h1>Password Generator</h1>
+    </nav>
+
+    <main>
+        <div id="content">
+            <div id="resultado">
+                <div id="display"></div>
+                <button type='button' id="btn" onclick="gerar()"><i class="fas fa-check"></i></button>
+            </div>
+
+            <div id="options">
+
+                <div>
+                    <label for="letrasMaiusculas">Letras maiúsculas</label>
+                    
+                    <label class="container">
+                        <input type="checkbox" name="letrasMaiusculas" id="letrasMaiusculas" value="off">
+                        <span class="checkmark"></span>
+                      </label>
+
+                </div>
+            
+                <div>
+                    <label for="letrasMinusculas">Letras minúsculas</label>
+
+                    <label class="container">
+                        <input type="checkbox" name="letrasMinusculas" id="letrasMinusculas">
+                        <span class="checkmark"></span>
+                      </label>
+                </div>
+
+                <div>
+                    <label for="Numeros">Números</label>
+                   
+                    <label class="container">
+                        <input type="checkbox" name="numeros" id="numeros">
+                        <span class="checkmark"></span>
+                      </label>
+                </div>
+            
+                <div>
+                    <label for="Especiais">Caracteres especias</label>
+
+                    <label class="container">
+                        <input type="checkbox" name="especiais" id="especiais">
+                        <span class="checkmark"></span>
+                      </label>
+                </div>
+            
+            
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <a href="https://www.linkedin.com/in/pedro-henrique-352752212/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://pedrohsj.github.io/tmdbAPI/" target="_blank"><i class="fas fa-tv"></i></a>
+        <a href="https://pedrohsj.github.io/Clone-Netflix/" target="_blank"><i class="fas fa-film"></i></a>
+        <a href="https://pedrohsj.github.io/ToDoList/" target="_blank"><i class="fas fa-check"></i></a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
