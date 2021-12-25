@@ -32,12 +32,12 @@ nav h1{
 #content{
     background-color: var(--dark);
 
-    width: 355px;
-    height: 60vh;
+    max-width: 310px;
+    height: 50vh;
 
     border-radius: 5px;
 
-    margin: 50px auto;
+    margin: 100px auto;
 
     display: flex;
     flex-direction: column;
@@ -181,7 +181,10 @@ nav h1{
     }
    @media (min-width:1024px){
        #content{
-           width: 60vw;
+           min-width: 60vw;
+           min-height: 60vh;
+
+           margin: 50px auto;
        }
 
        #options{
